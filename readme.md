@@ -1,6 +1,10 @@
 # Disable Passkeys
 A small Chrome and Firefox extension to block passkey (WebAuthn) prompts and their autofill.
 
+> [!NOTE]
+> This is a fork of [TheConfax/Disable-Passkeys](https://github.com/TheConfax/Disable-Passkeys) that removes the update/informational popup advertisements that the extension uses. The links below are to the original extension and this fork is not listed on the Chrome Web Store (yet).
+
+
 <div align="center">
 
 <a href="https://chrome.google.com/webstore/detail/oapdndjfcfdeimbeemphceonhagcnlml"><img src="assets/CWS.png" alt="Available in the Chrome Web Store" height="58"></a>
