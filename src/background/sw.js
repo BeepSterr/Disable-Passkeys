@@ -2,19 +2,15 @@ import { loadCfg, migrateCfg } from "../shared/config.js";
 import { applyCfg } from "./blocker.js";
 import { syncVisuals, setTheme, flashIntervention } from "./visuals.js";
 import { bumpStats } from "./stats.js";
-import { ensureInstalledAt, maybeOpenAboutCampaign, maybeOpenWhatsNewCampaign } from "./campaigns.js";
 
-chrome.runtime.onInstalled.addListener(async (details) => {
-  await ensureInstalledAt();
+chrome.runtime.onInstalled.addListener(async () => {
   await migrateCfg();
   await applyCfg(await loadCfg());
-  await maybeOpenWhatsNewCampaign(details); // last: the extension is already working when the tab opens
 });
 
 chrome.runtime.onStartup.addListener(async () => {
   await migrateCfg();
   await applyCfg(await loadCfg());
-  await maybeOpenAboutCampaign();
 });
 
 // On SW wake, reflect the correct icon/badge without re-registering scripts
