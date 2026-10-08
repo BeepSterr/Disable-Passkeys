@@ -1,4 +1,4 @@
-# Disable Passkeys
+# <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon_dark.png"><img src="assets/icon.png" alt="" height="39" align="absmiddle"></picture> Disable Passkeys
 A small Chrome and Firefox extension to block passkey (WebAuthn) prompts and their autofill.
 
 > [!NOTE]
@@ -16,7 +16,7 @@ A small Chrome and Firefox extension to block passkey (WebAuthn) prompts and the
 [![Mozilla Add-on Rating](https://img.shields.io/amo/stars/disable-passkeys?label=rating&color=E66000)](https://addons.mozilla.org/firefox/addon/disable-passkeys/)
 [![Mozilla Add-on Users](https://img.shields.io/amo/users/disable-passkeys?color=E66000)](https://addons.mozilla.org/firefox/addon/disable-passkeys/)
 
-<a href="https://ko-fi.com/theconfax"><img src="assets/ko-fi.png" alt="Support me on Ko-fi" height="34"></a>
+<a href="https://ko-fi.com/theconfax"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ko-fi_dark.png"><img src="assets/ko-fi.png" alt="Support me on Ko-fi" height="34"></picture></a>
 
 </div>
 
@@ -60,7 +60,7 @@ This extension **blocks WebAuthn requests** and can be configured to block passk
 [![Mozilla Add-on Rating](https://img.shields.io/amo/stars/disable-passkeys?label=rating&color=E66000)](https://addons.mozilla.org/firefox/addon/disable-passkeys/)
 [![Mozilla Add-on Users](https://img.shields.io/amo/users/disable-passkeys?color=E66000)](https://addons.mozilla.org/firefox/addon/disable-passkeys/)
 
-<a href="https://ko-fi.com/theconfax"><img src="assets/ko-fi.png" alt="Support me on Ko-fi" height="34"></a>
+<a href="https://ko-fi.com/theconfax"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ko-fi_dark.png"><img src="assets/ko-fi.png" alt="Support me on Ko-fi" height="34"></picture></a>
 
 </div>
 
